@@ -3,8 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff; /* Couleur de fond */
-    color: #000000; /* Couleur du texte */
+    background-color: #ffffff;
+    color: #000000;
     transition: background-color 0.5s ease;
 }
 
@@ -28,18 +28,13 @@ a {
     margin-top: 0;
 }
 
-/* Styles pour le thème sombre */
 .dark-theme {
-    background-color: #1a1a1a; /* Couleur de fond sombre */
+    background-color: #1a1a1a;
     color: #ffffff;
 }
 
 .dark-theme a {
-    color: white; /* Couleur du lien dans le thème sombre */
-}
-
-.dark-theme .wrapper div {
-    /* Styles spécifiques pour les div dans le thème sombre */
+    color: white;
 }
 
 .apple-button {
@@ -75,7 +70,6 @@ a {
     transform: translateY(0px);
 }
 
-/* Add a black background color to the top navigation bar */
 .searchbar {
     overflow: hidden;
     margin-top: 5px;
@@ -83,7 +77,6 @@ a {
     border-radius: 10px;
 }
 
-/* Style the search box inside the navigation bar */
 .topnav input[type=text] {
     float: right;
     padding: 6px;
