@@ -10,7 +10,7 @@ weather information from various cities using the OpenWeather API.
 - [Usage](#usage)
     - [Starting the Server](#starting-the-server)
     - [Accessing the Application](#accessing-the-application)
-- [License](#licence)
+- [License](#license)
 
 ## Overview
 
@@ -71,9 +71,9 @@ http://localhost:3000
 
 You will see the World Live Thermometer interface displaying the current temperatures for various cities.
 
-## Licence
+## License
 
-This project is licensed under the MIT Licence. See the [LICENCE](LICENCE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
