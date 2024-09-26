@@ -19,7 +19,7 @@ async function getTemperature(cityName) {
         const temperatureElement = document.getElementById(`${cityName}-temperature`);
         temperatureElement.textContent = `${data.temperature}°C`;
     } catch (error) {
-        console.error('Erreur lors de la récupération des données:', error);
+        console.error('Error retrieving data:', error);
         const temperatureElement = document.getElementById(`${cityName}-temperature`);
         temperatureElement.textContent = 'Erreur';
     }
