@@ -1,0 +1,65 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+a {
+    color: black;
+    transition: color 0.5s ease;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    font-size: 25px;
+}
+
+.wrapper div {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper div .city {
+    margin-top: 0;
+}
+
+.theme-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    margin-top: 90px;
+}
+
+.theme-button:hover {
+    transform: translateY(-2px);
+}
+
+.theme-button:active {
+    transform: translateY(0px);
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-theme a {
+    color: white;
+}
+
+.dark-theme .theme-button {
+    background-color: white;
+    color: black;
+}

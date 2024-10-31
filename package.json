@@ -1,0 +1,20 @@
+{
+  "name": "worldlivethermometer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A web application for real-time temperature updates using the OpenWeatherMap API.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//NitroStar654/WorldLiveThermometer.git"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "node-fetch": "^3.3.2"
+  }
+}
