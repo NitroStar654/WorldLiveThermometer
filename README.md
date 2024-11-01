@@ -1,7 +1,7 @@
 # World Live Thermometer
 
 Welcome to the World Live Thermometer project! This repository contains scripts for retrieving and displaying real-time
-weather information from various cities using the OpenWeather API.
+weather information from various cities using the OpenWeatherMap API.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ weather information from various cities using the OpenWeather API.
 ## Overview
 
 World Live Thermometer provides a web application that allows users to view the current temperature of various cities
-around the world. The application fetches weather data from the OpenWeather API and displays it in a user-friendly
+around the world. The application fetches weather data from the OpenWeatherMap API and displays it in a user-friendly
 format.
 
 This project is a great way to learn about web development, API integration, and real-time data fetching.
@@ -42,11 +42,12 @@ npm install
 
 ### Environment Variables
 
-Create a ```.env``` file in the root directory of the project and add your [OpenWeather](https://openweathermap.org/api)
+Create a ```.env``` file in the root directory of the project and add
+your [OpenWeatherMap](https://openweathermap.org/api)
 API key:
 
 ```
-API_KEY=your_openweather_api_key
+API_KEY=your_openweathermap_api_key
 ```
 
 ## Usage
