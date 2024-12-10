@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.21.0",
+    "express": "^4.21.2",
     "node-fetch": "^3.3.2"
   }
 }
